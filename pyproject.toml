@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "data2day-2022"
+version = "0.1.0"
+description = "Wrap-up all the content used during the conference and makes it publicly available."
+authors = ["Olivier Bénard"]
+license = "Breuninger"
+
+packages = [
+    {include = "data2day_2022"}
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+gmplot = "^1.4.1"
+jupyter = "^1.0.0"
+google-cloud-bigquery = "^3.3.2"
+dynaconf = "^3.1.9"
+jupyter-black = "^0.3.1"
+ipython-sql = "^0.4.1"
+mypy = "^0.971"
+pylint = "^2.15.0"
+statsmodels = "^0.13.2"
+datalab = "^1.2.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
