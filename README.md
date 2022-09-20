@@ -36,7 +36,7 @@ google_map_api_key =  "<your-google-map-api-key>"
 ```
 3. Install all the dependencies on the virtual environment via `poetry`:
 
-        poetry update
+        poetry install
 4. You are ready to go and can start the `jupyter notebook` kernel:
 
         make notebook
