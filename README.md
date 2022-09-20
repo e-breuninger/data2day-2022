@@ -2,7 +2,7 @@
 
 Public repository containing the material for the 2022 data2day conference.
 
-More information on the program from our data2day dedicated page: [From PoCs to Large Scale ML Operationalization Covering the End-to-End Pipeline](https://www.data2day.de/veranstaltung-15085-0-from-pocs-to-large-scale-ml-operationalization-covering-the-end-to-end-pipeline.html).
+More on the program: [From PoCs to Large Scale ML Operationalization Covering the End-to-End Pipeline](https://www.data2day.de/veranstaltung-15085-0-from-pocs-to-large-scale-ml-operationalization-covering-the-end-to-end-pipeline.html).
 
 ## Developers
 
