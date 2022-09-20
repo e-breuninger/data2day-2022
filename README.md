@@ -71,7 +71,7 @@ This will guarantee that the code you push meets the best software development s
 
 |date|quantity|
 |---|---|
-|YYYY-MM-DD|float|
+|\<YYYY-MM-DD>|\<float>|
 
 * Rainfall data for Stuttgart in 2018 has been retrieved and collected in the `results/weather_prpc.csv` file. You can however query the intial tables on BigQuery using `notebooks/weather_data_on_biqguery.ipynb`. Results will be captured under the `results/` folder.
 
