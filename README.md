@@ -32,7 +32,7 @@ APP_PATH = "/absolute/path/to/the/local/repository/"
 2. Create a `.secrets.toml` file based on the following template (you can left the default if you have no key):
 ```toml
 [default]
-google_map_api_key =  "<your-google-map-api-key>"
+google_map_api_key = "<your-google-map-api-key>"
 ```
 3. Install all the dependencies on the virtual environment via `poetry`:
 
