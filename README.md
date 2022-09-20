@@ -29,7 +29,7 @@ LATITUDE = "<google-map-latitude>"
 LONGITUDE = "<google-map-longitude>"
 APP_PATH = "/absolute/path/to/the/local/repository/"
 ```
-2. Create a `.secrets.toml` file based on the following template (you can left the default string if you have no key):
+2. Create a `.secrets.toml` file based on the following template (you can left the default if you have no key):
 ```toml
 [default]
 google_map_api_key =  "<your-google-map-api-key>"
@@ -42,6 +42,12 @@ google_map_api_key =  "<your-google-map-api-key>"
         make notebook
 
 Only thing left to do if to naviguate through `notebooks/` and play with the notebooks.
+
+**Bonus:** If you want to publish some changes, you first need to install pre-commit:
+
+        make pre-commit-install
+
+This will guarantee that the code you push meets the best software development standards and the github CI/CD pipeline to succeed i.e. your code will be accepted.
 
 **Notes:**
 - You need to install poetry if you do not have it already via `brew install poetry`.
